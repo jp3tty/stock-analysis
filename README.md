@@ -1,5 +1,5 @@
 # Green Stock Analysis
-Performing analysis on a group of stocks with VBA.
+Performing analysis on stocks with Excel and VBA.
 
 ## Purpose
 
