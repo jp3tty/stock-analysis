@@ -1,7 +1,7 @@
 # Green Stock Analysis
 Performing analysis on stocks with Excel and VBA.
 
-## Purpose
+## Overview of Project
 
 The goal of this project is to create an efficient, user-friendly Excel interface for performing stock analysis. To manage this task, a VBA subroutine was employed that reports an array of stock performaces (Total Daily Volume and Yearly Return Percentage) for a given year. As an input, the subroutine prompts the user to pick the year they wish to analyze. The data is then processed and the desired information is output to its own Excel worksheet for the user to view.
 
@@ -43,3 +43,6 @@ The ticker performance per year performance remained unchanged between the origi
 
 @ IMAGE OF PERFORMACE OF ORIGINAL CODE
 @ IMAGE OF PERFORMACE OF MODIFIED CODE
+
+# Summary
+
