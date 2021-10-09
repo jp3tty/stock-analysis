@@ -42,6 +42,7 @@ Having minimal experience with VBA not knowing where to activate worksheets and 
 The ticker performance per year performance remained unchanged between the original code and the refactored code. The code efficiency is greatly improved however in the refactored code. 
 
 '[Performance of Refactored 2017 Code](https://github.com/jp3tty/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+
 '[Performance of Refactored 2018 Code](https://github.com/jp3tty/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 @ IMAGE OF PERFORMACE OF ORIGINAL CODE
