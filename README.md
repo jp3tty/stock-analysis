@@ -20,7 +20,7 @@ The VBA subroutine created to perform this analysis steps through the following 
    * include a line to separate the headers form their associated rows of results
    * conditionally format the results with green or red cells depending on the stocks performance
 
-For ease of use, the report sheet was given two buttons as a user interface. The first button, labeled "Perform Stock Analysis," initializes the steps listed above. The second button, labeled "Clear Worksheet," initializes a separate subroutine that erases the information from the report worksheet.
+For ease of use, the report sheet was given two buttons as a user interface. The first button, labeled "Run Analysis for All Stocks," initializes the steps listed above. The second button, labeled "Clear Worksheet," initializes a separate subroutine that erases the information from the report worksheet.
 
 A report for 2017 can be seen here:
 
@@ -43,11 +43,14 @@ Refactoring was applied in an attempt to improve the performance of the VBA subr
 ![Refactored For Loop](https://github.com/jp3tty/stock-analysis/blob/main/Resources/refactoredNestedLoop(2).PNG)
 
 ## Results
-The ticker performance per year remained unchanged between the original code and the refactored code, but codes efficiency is greatly improved due to refactoring. This can be seen in the 
+The ticker performance per year remained unchanged between the original code and the refactored code, but codes efficiency greatly improved due to refactoring. This can be seen in the preformance boxes for the refactored analysis below. Also note, the initialization button is now labled "Perform Stock Analysis."
 
-![Refactored2017CodePerformance]
+![Refactored2017CodePerformance](https://github.com/jp3tty/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
 
-![Refactored2018CodePerformance]
+
+![Refactored2018CodePerformance](https://github.com/jp3tty/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
+
+The refactored subroutine for 2017 and 2018 ran in 0.1679688 seconds. Compared to our original analysis (2017 took 0.9726563 seconds and 2018 took 0.890625 seconds), this refactoring decreased the runtime by at least 81.14%.
 
 # Summary
 
